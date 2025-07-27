@@ -1,0 +1,27 @@
+.carsListContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 56px auto 120px auto;
+  gap: 80px;
+}
+
+.carsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  row-gap: 48px;
+}
+
+.button {
+  border: 1px solid #3470ff;
+  border-radius: 12px;
+  max-width: 156px;
+  height: 44px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  margin: 0 auto;
+}

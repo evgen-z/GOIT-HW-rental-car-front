@@ -1,0 +1,48 @@
+.heroContainer {
+  position: relative;
+  width: 100vw;
+  min-height: 700px;
+  overflow: hidden;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+  transform: translateX(-50%) scale(1.1);
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  margin: 436px auto 60px auto;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #fff;
+}
+
+.hero button {
+    margin-top: 40px;
+}

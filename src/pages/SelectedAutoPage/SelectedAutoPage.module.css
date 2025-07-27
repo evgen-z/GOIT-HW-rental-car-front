@@ -1,0 +1,20 @@
+.selectedCarPage {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    gap: 72px;
+    margin: 84px auto 0 auto;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.carImage {
+    width: 640px;
+    height: 512px;
+    border-radius: 19px;
+}
