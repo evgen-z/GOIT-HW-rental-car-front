@@ -1,11 +1,9 @@
-Sure! Here's the full README content as one uninterrupted plain text block you can save directly as `README.md`:
 
-````
-# 🚗 Car Rental Catalogue
+# Car Rental Catalogue
 
 A modern car rental catalogue app built with **React**, **Redux**, **MUI**, and **Flatpickr**. Browse, filter, and manage favorite rental cars with a responsive and sleek UI.
 
-## ✨ Features
+## Features
 
 - Browse car listings with images, details, and pricing
 - Advanced filtering (brand, mileage, price)
@@ -14,7 +12,7 @@ A modern car rental catalogue app built with **React**, **Redux**, **MUI**, and 
 - Custom date picker with Flatpickr
 - Global styling with CSS Modules and MUI customization
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **React**
 - **Redux Toolkit** (for state management)
@@ -23,7 +21,7 @@ A modern car rental catalogue app built with **React**, **Redux**, **MUI**, and 
 - **Flatpickr** for custom date selection
 - **CSS Modules** for scoped styles
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repo**
 
@@ -44,7 +42,7 @@ A modern car rental catalogue app built with **React**, **Redux**, **MUI**, and 
    npm start
    ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -57,19 +55,19 @@ src/
 └── App.jsx             # App root and routing
 ```
 
-## ⚙️ Customization
+## Customization
 
 - **Global Fonts & Theme:** MUI theme is customized with `font-weight: 500`, `font-size: 16px`, and consistent `line-height`.
 - **Date Picker:** Customized using Flatpickr to resemble the browser's native look.
 - **Select & Inputs:** Styled with MUI `sx` prop and additional tweaks for placeholder control and focus states.
 
-## 🚧 Known Issues / Notes
+## Known Issues / Notes
 
 - Ensure your backend (if connected) returns the expected car data shape.
 - Flatpickr replaces the native date input for better control and consistent styling.
 - Some mobile styling adjustments may still be in progress.
 
-## 📄 License
+## License
 
 MIT
 
