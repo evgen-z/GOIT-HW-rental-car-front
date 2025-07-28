@@ -46,3 +46,8 @@
 .hero button {
     margin-top: 40px;
 }
+
+.hero button:hover,
+.hero button:focus {
+  background-color: #0b44cd;
+}
