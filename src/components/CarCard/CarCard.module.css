@@ -79,3 +79,8 @@
   width: 100%;
   margin-top: 28px;
 }
+
+.button:hover,
+.button:focus {
+  background-color: #0b44cd;
+}

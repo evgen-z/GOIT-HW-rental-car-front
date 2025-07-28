@@ -25,6 +25,11 @@
     margin: 0 auto;
 }
 
+.rentalForm button:hover,
+.rentalForm button:focus {
+    background-color: #0b44cd;
+}
+
 .text {
     display: flex;
     flex-direction: column;

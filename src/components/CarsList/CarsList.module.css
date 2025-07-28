@@ -25,3 +25,8 @@
   color: #101828;
   margin: 0 auto;
 }
+
+.button:hover,
+.button:focus {
+  border-color: #0b44cd;
+}
